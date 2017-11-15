@@ -2,7 +2,7 @@ class Solution {//how to deal with overflow
 public:
     int reverse(int x) {
         //if negative
-        bool negativeFlag= false;
+        bool negativeFlag= false;// set flag to take care negative input
         if (x < 0) {
             negativeFlag = true;
             x = -x;
